@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h1{
+    background-color: black;
+    color: rgb(7, 231, 231);
+    font-size: 50px;
+   margin: 25px 25px 5px 25px;
+    padding: 10px 30px;
+    border: 2px solid orange;
+}
+h2{
+
+background-color: blueviolet;
+color: white;
+text-align: center;
+font-size: 35px;
+    margin: 0px 25px 25px 25px;
+    padding: 10px 30px;
+    
+
+}
+div{
+background-color: aqua;
+color: blue;
+text-align: right;
+font-size: 25;
+height: 40px;
+    font-size: 35px;
+    margin: 0px 25px 25px 25px;
+    padding: 10px 30px;
+    margin-top: 5px;
+
+}
+span{
+
+    color: white;
+}
