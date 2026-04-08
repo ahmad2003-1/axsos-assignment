@@ -1,0 +1,122 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  padding: 30px;
+  margin-bottom: 25px;
+}
+
+.row-1 {
+  background-color: #5bc0eb;
+  justify-content: space-between;
+}
+
+.row-2 {
+  background-color: #d6a4ff;
+  justify-content: space-around;
+}
+
+.row-3 {
+  background-color: #9ee6b8;
+  justify-content: space-evenly;
+}
+
+
+img {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  padding: 10px;
+}
+
+p {
+  margin-right: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
