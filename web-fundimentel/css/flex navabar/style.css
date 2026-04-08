@@ -1,0 +1,90 @@
+
+.{
+  margin: 0 ;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+
+}
+.nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: black;
+padding: 15px 30px;
+
+}
+.nav-title{
+
+color: white;
+
+}
+.nav-links{
+display: flex;
+color: beige;
+align-items: center;
+gap: 20px;
+}
+.btn{
+color: #b40404;
+border-radius: 5px;
+border: hwb(241 9% 28%);
+cursor: pointer;
+padding: 5px 10px;
+}
+.nav-links a {
+
+color: aliceblue;
+text-decoration: none;
+font-size: 13px;
+
+}
+.nav-links a.active {
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
