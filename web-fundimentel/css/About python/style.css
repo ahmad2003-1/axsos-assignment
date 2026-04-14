@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+/* Layout */
+.container {
+  width: 970px;
+  margin: auto;
+}
+
+/* Header */
+.header {
+  background: #295c7a;
+  color: white;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.logo {
+  height: 60px;
+}
+
+.search-area {
+  text-align: right;
+}
+
+.search-box {
+  margin-top: 5px;
+}
+
+.search-box input {
+  padding: 5px;
+}
+
+.search-box button {
+  padding: 5px 10px;
+  background: #1e415e;
+  color: white;
+  border: none;
+}
+
+/* Nav */
+.navbar {
+  background: #3b78a6;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+/* Main Sections */
+.main {
+  padding: 30px 0;
+}
+
+.blue {
+  background: #295c7a;
+  color: white;
+}
+
+.white {
+  background: #f5f5f5;
+}
+
+/* Columns */
+.three-cols {
+  display: flex;
+  gap: 20px;
+}
+
+.two-cols {
+  display: flex;
+  gap: 40px;
+}
+
+.col {
+  flex: 1;
+}
+
+/* Lists */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+/* Zen */
+.zen {
+  color: #ffd43b;
+  margin-top: 20px;
+}
+
+.author {
+  text-align: center;
+  color: white;
+}
+
+/* Footer */
+.footer {
+  background: #3b78a6;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
