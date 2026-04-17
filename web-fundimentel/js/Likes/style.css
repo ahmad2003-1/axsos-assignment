@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+width: 100%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 3rem;
+}
+header{
+    width: 60%;
+    padding: 1rem;
+    background-color: black;
+}
+ 
+h1{
+    color: white;
+    font-size: 2rem;
+}
+main{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+main h2{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+aside{
+    height: 50%;
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    border: 2px solid black;
+}
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+aside a {
+}
+aside h2{
+    font-size: 1.5rem;
+}
+section{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}
+ 
+.user-likes{
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 1rem;
+}
+.user-likes p{
+    width: 100%;
+    margin: 2rem auto;
+    font-size: 1.3rem;
+}
+.likes-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.likes-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+ span{
+    font-size: 1.5rem;
+}
+.likes-info button{
+    background-color: chartreuse;
+    border:1px solid black;
+    box-shadow:2px 2px 2px black ;
+    color: black;
+    padding: 1rem;
+    font-size: 1rem;
+}
+ 
+ 
